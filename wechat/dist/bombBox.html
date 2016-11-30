@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>弹框demo</title>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="format-detection" content="telephone=no,email=no">
+    <!-- build:css style/app.css -->
+    <link rel="stylesheet" href="vendor/lib-flexible/flexible.css">
+    <link rel="stylesheet" href="vendor/bombBox/bombBox.css">
+    <link rel="stylesheet" href="style/animation.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_5rpsnqsqa68ncdi.css">
+    <link rel="stylesheet" href="style/mobile.css">
+    <link rel="stylesheet" href="style/common.css">
+    <!-- endbuild -->
+</head>
+<body>
+<!-- <div class="bomb-box">
+    <div class="big-shade-box">   
+        <div class="small-shade-section">
+            <div class="small-shade-child">
+                <div class="spinner-box">
+                    <div class="spinner">
+                        <div class="spinner-container container1">
+                            <div class="circle1"></div>
+                            <div class="circle2"></div>
+                            <div class="circle3"></div>
+                            <div class="circle4"></div>
+                            </div>
+                            <div class="spinner-container container2">
+                            <div class="circle1"></div>
+                            <div class="circle2"></div>
+                            <div class="circle3"></div>
+                            <div class="circle4"></div>
+                            </div>
+                            <div class="spinner-container container3">
+                            <div class="circle1"></div>
+                            <div class="circle2"></div>
+                            <div class="circle3"></div>
+                            <div class="circle4"></div>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="circle">
+                    <i class="iconfont icon-roundcheck"></i>
+                </div>  
+                <div class="content-remain">加载中</div>
+            </div>
+                      
+        </div>
+        <div class="content-random">
+            <p>加加载</p>
+        </div>
+
+    </div> 
+</div> -->
+<button class="loading" id="loading1">loading</button>
+<button class="loading" id="loading2">loading2</button>
+<button class="loading" id="loading">单独的loading1</button>
+<button class="loading" id="loading22">单独的loading2</button>
+<button class="loading" id="loading3">loading3</button>
+<button class="loading" id="loading4">loading4</button>
+<button class="loading" id="loading-s">登录成功</button>
+<button class="loading" id="loading-f">登录失败</button>
+<button class="loading" id="point1">文字提示1</button>  
+<button class="loading" id="point2">文字提示2</button>
+<button class="loading" id="point3">文字提示3</button>    
+
+<script src="vendor/lib-flexible/flexible.js"></script>
+<script src="vendor/jquery.min.js"></script>
+<script type="text/javascript" src="vendor/bombBox/bombBox.js"></script>
+<script type="text/javascript">
+
+    // type - 设置弹层的类型
+    // 类型：Number
+    // 默认：1 （1表示带有动画的layer 2表示单纯的文字提示） 
+
+    // anim - 动画类型
+    // 类型：String/Boolean
+    // 可支持的支持动画配置：scale（默认）、opacity（淡入），如果不开启动画，设置false即可,若后续需要动画，直接在bombcss里面直接写入动画即可。
+
+    // content - 自定义弹层文字内容
+    // 类型：String
+
+    // shade - 大遮罩
+    // 默认shade: false;
+    // 可自定义背景色及样式  shade:"background:rgba(110,0,110, .7)",
+     
+    // yes
+    // 类型：Function
+    // btn按钮触发的回调函数，返回一个参数为当前层的索引
+
+    // end
+    // 类型：Function
+    // 层彻底销毁后的回调函数
+    
+    // success - 层成功弹出层的回调
+    // 类型：Function
+    // 该回调参数返回一个参数为当前层元素对象
+
+    // shadeChild - 内容框 （在type:1下必须写）
+    // 可自定义背景色及样式  shadeChild:"background:rgba(0,0,0,.5)" ,
+
+    // spinner （在type:1下，默认的动画）
+    // （1表示loading动画，2表示成功的iconfont ,3表示失败的iconfont,4,5,6分别是不同的loading动画）
+
+    //time 延迟多少秒执行，关闭layer的效果
+    
+    // end:true,  //销毁所有的回掉函数 必须配合close关闭bombBox
+    
+    //注意：默认的文字样式为.content-remain 
+
+    //childName改变弹框的位置，自定加参数，然后在css里面写top和left的值来确定位置；
+    //className改变文字样子，加在p标签的父元素(.content-remain);
+ 
+
+    $("#loading1").click(function(){     
+        bombBox.open({
+            type:1,   //1表示带有动画的layer 2表示就是文字提示
+            content:"加载中...",
+            shade:"background:rgba(0,0,0, .7)",
+            shadeChild:"background:#fff;" ,
+            anim : "opacity",
+            spinner:1,
+            end:true,  //销毁所有的回掉函数 必须配合close关闭bombBox
+        })
+    })
+
+    $("#loading").click(function(){     
+        bombBox.open({
+            type:1,   //1表示带有动画的layer 2表示就是文字提示
+            shade:"background:rgba(0,0,0, .7)",
+            shadeChild:"background:#fff;" ,
+            anim : "opacity",
+            spinner:4,
+        })
+    })
+
+    $("#loading22").click(function(){     
+        bombBox.open({
+            type:1,   //1表示带有动画的layer 2表示就是文字提示
+            shade:"background:rgba(0,0,0, .7)",
+            anim : "opacity",
+            spinner:1,
+        })
+    })
+
+    $("#loading2").click(function(){     
+        bombBox.open({
+            type:1,   //1表示带有动画的layer 2表示就是文字提示
+            content:"加载中...",
+            spinner:4,
+            shadeChild:"border:1px solid #000; /*no*/ " , 
+            end : function(){
+                console.log("层彻底销毁的回掉函数");
+            }     
+        })
+    })
+
+    $("#loading3").click(function(){     
+        bombBox.open({
+            type:1,   //1表示带有动画的layer 2表示就是文字提示
+            content:"加载中...",
+            shade:"background:rgba(0,0,0, .7)",
+            shadeClose:true,     //表示点击shade可以隐藏layer
+            shadeChild:"background:#fff;" ,
+            spinner:5,
+            end:true,  //销毁所有的回掉函数 必须配合close关闭layer
+            childName : "weizhi",
+        })
+    })
+
+    $("#loading4").click(function(){     
+        bombBox.open({
+            type:1,   //1表示带有动画的layer 2表示就是文字提示
+            content:"加载中加载中加载中加载中加载中加载中加载中...",
+            shade:"background:rgba(0,0,0, .7)",
+            shadeClose:true,     //表示点击shade可以隐藏layer
+            shadeChild:"background:#fff;" ,
+            spinner:6,
+            end:true,  //销毁所有的回掉函数 必须配合close关闭layer
+        })
+    })
+
+     $("#loading-s").click(function(){
+        bombBox.open({
+            type:1,
+            content:"登录成功",
+            // shadeClose:true,
+            shadeChild:"background:rgba(0,0,0,.7)", 
+            spinner:2,   //不同的iconfont动画
+            time: 2,
+            className:"m-width", //自定义添加类名
+            anim : "opacity",
+            
+        })
+    })
+
+    $("#loading-f").click(function(){
+        bombBox.open({
+            type:1,
+            content :"登录失败",
+            shade:"background:rgba(0,0,0, .7)",
+            shadeClose:true,     //表示点击shade可以隐藏layer  
+            shadeChild:"background:rgba(0,0,0,.7)", 
+            spinner:3,   //不同的iconfont动画
+            //time:2, 
+            success: function(ele) {
+                console.log(ele);
+            },   
+        })
+    })
+
+     $("#point1").click(function(){
+        bombBox.open({
+            type:2,
+            content:"所填信息没有经过验证，请稍后…",   
+            shadeChild:"background:rgba(0,0,0, .4)",  
+            btn : "确认",   
+            childName:"m-point1", //自定义添加类名          
+        })
+    })
+
+    $("#point2").click(function(){
+        bombBox.open({
+            type:2,
+            content:"正在检测信息…",        
+            shadeChild:"background:rgba(0,0,0,.7)", 
+            btn : "确认", 
+            shade:"background:rgba(0,0,0, .7)",            
+            anim : "opacity",    
+            yes: function(index){
+                console.log('点击了确认');
+                console.log(index);
+                // bombBox.close(index);    //   shadeClose:false,只能点击btn按钮或者设定时间才可关闭bombBox;  
+            },
+            end : function(){
+                console.log("层彻底销毁的回掉函数");
+            },
+            className:"m-point2",
+        })
+    })
+
+
+     $("#point3").click(function(){
+        bombBox.open({
+            type:2,
+            content:"银行卡号输入有误！",   
+            shadeChild:"background:rgba(0,0,0, .7)", 
+            childName:"m-ptext", //自定义添加类名，改变位置；
+            className:"m-point3",           
+        })
+    })
+
+</script>
+</body>
+</html>

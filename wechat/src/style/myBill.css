@@ -1,0 +1,116 @@
+.mybill-totle {
+	margin-top: 10px;
+	color: #333; 
+    font-size: 26px; /*px*/
+    line-height: 66px;
+}
+.mybill-billList {
+	position: relative;
+	margin-bottom: 30px;
+	width: 100%;
+	height: 350px;
+	background: #fff;
+	box-shadow:0 0  10px rgba(0, 0, 0, .1);
+}
+.mybill-billList .mybill-billList-header {
+	border-bottom: 1px dashed #ccc; /*no*/
+	display: flex;
+	justify-content: space-between;
+	height: 131px;
+    align-items: center;
+}
+.mybill-billList::after {
+	position: absolute;
+	right: 0;
+	top: 123px;
+	height: 16px;  	/*px*/
+	width: 8px;		/*px*/
+	content: "";
+	border-radius:8px 0 0 8px;	/*px*/
+	box-shadow:2px 2px 10px rgba(0, 0, 0, .1) inset;
+	z-index: 999;
+	background: #fff;
+}
+.mybill-billList::before {
+	position: absolute;
+	left: 0;
+	top: 123px;
+	height: 16px;	/*px*/
+	width: 8px;		/*px*/
+	content: "";
+	border-radius:0 8px 8px 0;	/*px*/
+	box-shadow:2px 2px 10px rgba(0, 0, 0, .1) inset;
+	z-index: 999;
+	background: #fff;
+}
+.mybill-billList .mybill-main {
+	flex: 1;
+	padding-left: 12px;
+}
+.mybill-billList .icon-shop {
+	color: #c4c4c4; 
+    font-size: 32px; /*px*/	
+    padding-left: 14px;
+}
+.mybill-billList .mybill-name {
+	color: #333; 
+    font-size: 30px; /*px*/	
+    margin: 24px 0 12px 0;
+}
+.mybill-billList .mybill-shop {
+	color: #666; 
+    font-size: 24px; /*px*/		
+}
+.mybill-billList .mybill-gorepay {
+	width: 100px;
+	height: 42px;
+	background: #e83416;
+	color: #fff; 
+    font-size: 24px; /*px*/	
+    border: none;
+    border-radius: 8px; /*px*/
+    margin-right: 20px;
+    font-family: "微软雅黑";
+}
+
+
+
+.mybill-billList .mybill-billList-section {
+
+	height: 222px;
+	padding-left: 58px;
+	overflow: hidden;
+}
+.mybill-billList .mybill-billList-section > p {
+	flex: 1;
+}
+.mybill-billList .mybill-each {
+	color: #666; 
+    font-size: 28px; /*px*/
+    margin-top: 25px;	
+}
+.mybill-stage {
+	color: #ff3300;
+}
+.mybill-billList .mybill-date {
+	color: #666; 
+    font-size: 26px; /*px*/	
+    margin-top: 8px;
+}
+.mybill-billList .mybill-rest {
+	color: #61a7f5; 
+    font-size: 24px; /*px*/	
+    margin-top: 12px;
+}
+.mybill-billList .mybill-amount {
+	color: #666; 
+    font-size: 24px; /*px*/	
+    margin-top: 13px;
+}
+.mybill-remain {
+	position: absolute;
+	bottom: 50px;
+	right: 55px;
+	width: 122px;
+	height: 70px;
+}

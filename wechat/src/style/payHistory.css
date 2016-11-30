@@ -1,0 +1,42 @@
+.container .pay-list {
+	background: #fff;
+}
+.container .pay-list > li {
+	padding:32px 30px 20px 30px;
+	border-bottom: 1px solid #dfdfdf; /*no*/	
+}
+.container .pay-title {
+	line-height: 58px;
+}
+.pay-title span {
+	color: #666;
+	font-size: 24px; /*px*/
+}
+.pay-title h2 {
+	display: inline-block;
+	color: #333;
+	font-size: 30px; /*px*/
+}
+.pay-title strong {
+	font-size: 32px; /*px*/
+	text-align: right;
+	float: right;
+}
+.container .pay-time {
+	line-height: 50px;
+}
+.pay-time span {
+	color: #666;
+	font-size: 24px; /*px*/
+}
+.pay-time strong {
+	font-size: 26px; /*px*/
+	float: right;
+}
+.container .pay-number {
+	line-height: 58px;
+}
+.pay-number span {
+	color: #666;
+	font-size: 28px; /*px*/	
+}

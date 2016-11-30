@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>弹框demo</title>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="format-detection" content="telephone=no,email=no">
+    <!-- build:css style/app.css -->
+    <link rel="stylesheet" href="vendor/lib-flexible/flexible.css">
+    <link rel="stylesheet" href="vendor/bombBox/bombBox1.0.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_5rpsnqsqa68ncdi.css">
+    <link rel="stylesheet" href="style/mobile.css">
+    <!-- endbuild -->
+</head>
+<body>
+<button class="loading" id="loading1">loading</button>
+<button class="loading" id="loading2">loading2</button>
+<button class="loading" id="loading3">单独的loading1</button>
+<button class="loading" id="loading4">单独的loading2</button>
+<button class="loading" id="loading5">loading3</button>
+<button class="loading" id="loading6">loading4</button>
+<button class="loading" id="loading-s">登录成功</button>
+<button class="loading" id="loading-f">登录失败</button>
+<button class="loading" id="point1">文字提示1</button>  
+<button class="loading" id="point2">文字提示2</button>
+<button class="loading" id="point3">文字提示3</button>    
+
+<script src="vendor/lib-flexible/flexible.js"></script>
+<script src="vendor/jquery.min.js"></script>
+<script type="text/javascript" src="vendor/bombBox/bombBox1.0.js"></script>
+<script type="text/javascript">
+
+    $("#loading1").click(function(){     
+    	$H.open({
+            type:1,
+            header:'加载中',
+            shade: true,
+            contentShade: true,
+            animate: "opacity",
+        })
+
+    })
+
+    $("#loading2").click(function(){     
+		$H.open({
+            type:1,
+            loadType:2,
+            shade: true,
+            header:'加载中',
+            left: '100px',
+            top: '200px',
+            end : function(){
+                console.log("层彻底销毁的回掉函数");
+            },
+        })
+    })
+
+    $("#loading3").click(function(){     
+		$H.open({
+            type:1,
+            loadType:3,
+            shade: true,         
+        })
+    })
+
+    $("#loading4").click(function(){     
+		$H.open({
+            type:1,
+            loadType:5,
+            shade: false,
+            contentShade: true,
+       		header:'加载中',
+       		left: '300px',
+            top: '200px',
+        })
+    })
+
+    $("#loading5").click(function(){     
+    	$H.open({
+            type:1,
+            loadType:4,
+            shade: false,
+            contentShade: true,
+            footer:'加载中',
+        })
+    })
+
+    $("#loading6").click(function(){     
+    	$H.open({
+            type:1,
+            loadType:5,
+            shade: true,
+            header:'正在加载，请稍后！',
+        })
+    })
+
+     $("#loading-s").click(function(){
+		$H.open({
+            type:1,
+            loadType:6,
+            shade: false,
+            contentShade: true,
+            header:'登录成功',
+        })
+    })
+
+    $("#loading-f").click(function(){
+    	$H.open({
+            type:1,
+            loadType:7,
+            shade: false,
+            contentShade: true,
+            footer:'登录失败',
+        })
+    })
+
+     $("#point1").click(function(){
+		$H.msg('银行卡号输入有误!','200px','300px');
+    })
+
+    $("#point2").click(function(){
+		$H.open({
+            type:0,
+            shade: false,
+            shadeClose: false,
+            contentShade: true,
+            msg: '请输入用户名',
+            btn: '确认',
+         
+        })    	
+    })
+
+
+     $("#point3").click(function(){
+		$H.open({
+            type:0,
+            loadType:7,
+            shade: false,
+            contentShade: true,
+            msg: '银行卡号输入有误!',
+            btn:'确定',
+            yes : function(index){
+            	console.log('点击了确认');
+                console.log(index);
+            },
+            end : function(){
+                console.log("层彻底销毁的回掉函数");
+            },
+
+        })
+    })
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.pdtl60 {
+	padding: 0 60px; 
+}
+.container h1 {
+	color: #333;
+	font-size: 32px; /*px*/
+	text-align: center;
+	line-height: 122px;
+	font-weight: 700;
+}
+.container strong {
+	color: #333;
+	font-size: 24px; /*px*/	
+	font-weight: 700;
+	line-height: 44px;
+} 
+.container p {
+	color: #333;
+	font-size: 24px; /*px*/	
+	margin-bottom: 45px;
+	line-height: 38px;
+} 

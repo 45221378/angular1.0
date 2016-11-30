@@ -1,0 +1,56 @@
+.information > li {	
+	height: 82px;
+	line-height: 82px;
+	padding: 0 29px;
+	color: #323232; 
+    font-size: 28px; /*px*/
+   	border-bottom: 1px solid #dfdfdf;  /*no*/
+	border-left: 1px solid #dfdfdf;	 	/*no*/
+	border-right: 1px solid #dfdfdf;   /*no*/
+}
+.information > li > strong {
+	float: right;	
+}	
+.information + p {
+	color: #323232; 
+    font-size: 24px; /*px*/
+    margin-top: 54px;
+    text-align: center;
+    line-height: 40px;
+}
+.change-number {
+	color: #666; 
+    font-size: 24px; /*px*/  
+    display: block;	
+    line-height: 40px;
+    text-align: center;
+}
+.kefu-number {
+	color: #f4c536; 
+    font-size: 26px; /*px*/
+}
+.frame-snum p {
+	color: #333; 
+    font-size: 36px; /*px*/  
+	width: 100%;
+	height: 152px;
+	line-height: 152px;
+	text-align: center;
+   	border-bottom: 1px solid #dfdfdf;  /*no*/	
+}
+.frame-snum > ul {
+	display: flex;
+}
+.frame-snum ul li {
+	flex: 1;
+}
+.frame-snum a {
+	color: #828383; 
+    font-size: 34px; /*px*/ 
+	line-height: 87px;
+	text-align: center;
+	display: block;
+}
+.frame-snum .kefu-cancale{
+   	border-right: 1px solid #d9d9d9;  /*no*/	
+}

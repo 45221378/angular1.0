@@ -1,0 +1,116 @@
+/**检测到绑定手机号时出现此模板**/
+.container .hfq-please {
+	line-height: 40px;
+	font-size: 24px;  /*px*/	 
+    color: #666;
+    display:inline-block;
+    margin-bottom: 30px;
+}
+.notreceived-psd {
+	line-height: 83px;
+	display: block;
+	text-align: right;
+	color: #fdb23d;
+	font-size: 24px; /*px*/	
+}
+.container .hfq-mag {
+	margin-top: 0;
+}
+
+
+/**findsuccess**/
+.container .findsuccess-img {
+	width: 100%;
+	height: 601px;
+	background: url(../img/m-s.png) no-repeat 50% 29.95%;
+	background-size:154px 159px;
+	overflow: hidden;
+}
+.findsuccess-img h4 {
+	color: #333;
+	font-size: 32px; /*px*/
+	text-align: center;
+	margin-top: 388px;
+}
+
+
+/**setup**/
+.container .setup-item {
+	width: 100%;
+	height: 82px;
+	box-sizing: border-box;
+	border-left: 1px solid #dfdfdf;  /*no*/
+	border-right: 1px solid #dfdfdf;  /*no*/
+	border-bottom: 1px solid #dfdfdf;  /*no*/
+	padding: 0 30px;	
+	color: #323232;
+	font-size: 28px;  /*px*/
+	line-height: 82px;
+}
+.icon-fanhuiyou{
+	float: right;
+	font-size: 30px; /*px*/
+	color: #dfdfdf;
+}
+.container .m-modify {
+	color: #323232;
+	display: block;
+	float: left;
+}
+.container .m-phone {
+	color: #53abf5;
+	padding-right: 20px;
+	float: right;
+}
+.exit-login {
+	padding: 0 40px;
+	width: 100%;
+	position: absolute;
+	bottom: 88px;
+	text-align: center;
+}
+
+
+/**paysuccess**/
+.container .paysuccess-img {
+	width: 100%;
+	height: 686px;
+	background: url(../img/card-right.png) no-repeat 50% 26.96%;
+	background-size:178px 139px;
+	overflow: hidden;
+}
+.paysuccess-img h4 {
+	color: #666;
+	font-size: 36px; /*px*/
+	text-align: center;
+	margin-top: 378px;
+}
+/**payfail**/
+.container .payfail-img {
+	width: 100%;
+	height: 720px;
+	background: url(../img/card-wrong.png) no-repeat 50% 28.61%;
+	background-size:178px 139px;
+	overflow: hidden;
+}
+.payfail-img h4 {
+	color: #666;
+	font-size: 36px; /*px*/
+	text-align: center;
+	margin-top: 430px;
+	color: #e83416;
+}
+.payfail-img span {
+	color: #666;
+	font-size: 28px; /*px*/
+	text-align: center;
+	margin-top: 28px;
+	display: block;
+	text-align: center;
+}
+
+
+
+
+
+

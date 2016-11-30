@@ -1,0 +1,58 @@
+.pdtl60 {
+  padding: 0 0.8rem;
+}
+
+.container h1 {
+  color: #333;
+  text-align: center;
+  line-height: 1.626667rem;
+  font-weight: 700;
+}
+
+[data-dpr="1"] .container h1 {
+  font-size: 16px;
+}
+
+[data-dpr="2"] .container h1 {
+  font-size: 32px;
+}
+
+[data-dpr="3"] .container h1 {
+  font-size: 48px;
+}
+
+.container strong {
+  color: #333;
+  font-weight: 700;
+  line-height: 0.586667rem;
+}
+
+[data-dpr="1"] .container strong {
+  font-size: 12px;
+}
+
+[data-dpr="2"] .container strong {
+  font-size: 24px;
+}
+
+[data-dpr="3"] .container strong {
+  font-size: 36px;
+}
+
+.container p {
+  color: #333;
+  margin-bottom: 0.6rem;
+  line-height: 0.506667rem;
+}
+
+[data-dpr="1"] .container p {
+  font-size: 12px;
+}
+
+[data-dpr="2"] .container p {
+  font-size: 24px;
+}
+
+[data-dpr="3"] .container p {
+  font-size: 36px;
+}

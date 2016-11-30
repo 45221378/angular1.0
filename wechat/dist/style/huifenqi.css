@@ -1,0 +1,213 @@
+/**检测到绑定手机号时出现此模板**/
+
+.container .hfq-please {
+  line-height: 0.533333rem;
+  color: #666;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  margin-bottom: 0.4rem;
+}
+
+[data-dpr="1"] .container .hfq-please {
+  font-size: 12px;
+}
+
+[data-dpr="2"] .container .hfq-please {
+  font-size: 24px;
+}
+
+[data-dpr="3"] .container .hfq-please {
+  font-size: 36px;
+}
+
+.notreceived-psd {
+  line-height: 1.106667rem;
+  display: block;
+  text-align: right;
+  color: #fdb23d;
+}
+
+[data-dpr="1"] .notreceived-psd {
+  font-size: 12px;
+}
+
+[data-dpr="2"] .notreceived-psd {
+  font-size: 24px;
+}
+
+[data-dpr="3"] .notreceived-psd {
+  font-size: 36px;
+}
+
+.container .hfq-mag {
+  margin-top: 0;
+}
+
+/**findsuccess**/
+
+.container .findsuccess-img {
+  width: 100%;
+  height: 8.013333rem;
+  background: url(../img/m-s.png) no-repeat 50% 29.95%;
+  background-size: 2.053333rem 2.12rem;
+  overflow: hidden;
+}
+
+.findsuccess-img h4 {
+  color: #333;
+  text-align: center;
+  margin-top: 5.173333rem;
+}
+
+[data-dpr="1"] .findsuccess-img h4 {
+  font-size: 16px;
+}
+
+[data-dpr="2"] .findsuccess-img h4 {
+  font-size: 32px;
+}
+
+[data-dpr="3"] .findsuccess-img h4 {
+  font-size: 48px;
+}
+
+/**setup**/
+
+.container .setup-item {
+  width: 100%;
+  height: 1.093333rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-left: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+  padding: 0 0.4rem;
+  color: #323232;
+  line-height: 1.093333rem;
+}
+
+[data-dpr="1"] .container .setup-item {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .container .setup-item {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .container .setup-item {
+  font-size: 42px;
+}
+
+.icon-fanhuiyou {
+  float: right;
+  color: #dfdfdf;
+}
+
+[data-dpr="1"] .icon-fanhuiyou {
+  font-size: 15px;
+}
+
+[data-dpr="2"] .icon-fanhuiyou {
+  font-size: 30px;
+}
+
+[data-dpr="3"] .icon-fanhuiyou {
+  font-size: 45px;
+}
+
+.container .m-modify {
+  color: #323232;
+  float: left;
+}
+
+.container .m-phone {
+  color: #53abf5;
+  padding-right: 0.266667rem;
+  float: right;
+}
+
+.exit-login {
+  padding: 0 0.533333rem;
+  width: 100%;
+  position: absolute;
+  bottom: 1.173333rem;
+  text-align: center;
+}
+
+/**paysuccess**/
+
+.container .paysuccess-img {
+  width: 100%;
+  height: 9.146667rem;
+  background: url(../img/card-right.png) no-repeat 50% 26.96%;
+  background-size: 2.373333rem 1.853333rem;
+  overflow: hidden;
+}
+
+.paysuccess-img h4 {
+  color: #666;
+  text-align: center;
+  margin-top: 5.04rem;
+}
+
+[data-dpr="1"] .paysuccess-img h4 {
+  font-size: 18px;
+}
+
+[data-dpr="2"] .paysuccess-img h4 {
+  font-size: 36px;
+}
+
+[data-dpr="3"] .paysuccess-img h4 {
+  font-size: 54px;
+}
+
+/**payfail**/
+
+.container .payfail-img {
+  width: 100%;
+  height: 9.6rem;
+  background: url(../img/card-wrong.png) no-repeat 50% 28.61%;
+  background-size: 2.373333rem 1.853333rem;
+  overflow: hidden;
+}
+
+.payfail-img h4 {
+  color: #666;
+  text-align: center;
+  margin-top: 5.733333rem;
+  color: #e83416;
+}
+
+[data-dpr="1"] .payfail-img h4 {
+  font-size: 18px;
+}
+
+[data-dpr="2"] .payfail-img h4 {
+  font-size: 36px;
+}
+
+[data-dpr="3"] .payfail-img h4 {
+  font-size: 54px;
+}
+
+.payfail-img span {
+  color: #666;
+  text-align: center;
+  margin-top: 0.373333rem;
+  display: block;
+  text-align: center;
+}
+
+[data-dpr="1"] .payfail-img span {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .payfail-img span {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .payfail-img span {
+  font-size: 42px;
+}

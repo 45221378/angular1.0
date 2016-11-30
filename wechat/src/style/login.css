@@ -1,0 +1,25 @@
+.m-container .m-box{
+	width:100%;
+	text-align: center;
+	height: 330px;
+}
+.m-box{
+	width:100%;
+	text-align: center;
+	height: 302px;
+}
+.m-logo{
+	margin-top:27px;
+	width: 204px;
+	height: 207px;
+}
+.forget-psd {
+	color: #fdb23d;
+	line-height: 88px;
+	font-size: 28px; /*px*/
+	float: right;
+	margin-right: 33px;
+}
+
+
+

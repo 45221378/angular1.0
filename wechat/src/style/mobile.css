@@ -1,0 +1,155 @@
+/**  基础样式 **/
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "microsoft yahei","黑体", Verdana, Arial, sans-serif, "Times New Roman", "宋体", simsun;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    min-width: 640px;
+    max-width: 1280px;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+input:focus, select:focus, textarea:focus {
+    /*border-color: #66afe9;*/
+    /*box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);*/
+    outline: none;
+}
+
+input, button, select, textarea {
+    outline: none;
+}
+.pd30 {
+    padding: 30px;
+}
+.pdtl15{
+    padding: 0 15px;
+}
+.pdlr30 {
+    padding: 0 30px;
+}
+.pdtl40{
+    padding: 40px 0 0 40px;
+}
+.pdtl45{
+    padding: 0 45px;
+}
+.mgt20{
+    margin-top:20px;
+}
+.mgt30{
+    margin-top:30px;
+}
+.mgt60{
+    margin-top:60px;
+}
+.mgt75{
+    margin-top:75px;
+}
+.mgt125 {
+    margin-top: 125px;
+}
+.mgt160{
+    margin-top:160px;
+}
+.mgtb10{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*颜色*/
+.bgc-fa{
+    background-color: #fafafa;
+}
+.bgc-f8{
+    background-color: #f8f8f8;
+}
+.bgc-f5{
+    background-color: #f5f5f5;
+}
+.bgc-f4{
+    background-color: #f4f4f4;
+}
+
+/**myown**/
+.bgc-9999cc{
+    background-color: #9999cc;
+}
+.bgc-ffcc66{
+    background-color: #ffcc66;
+}
+.bgc-66cccc{
+    background-color: #66cccc;
+}
+.bgc-66ccff{
+    background-color: #66ccff;
+}
+
+.color-e83416{
+    color: #e83416;
+}
+.color-ff4e4e{
+    color: #ff4e4e;
+}
+.color-fdb23d{
+    color: #fdb23d;
+}
+.color-6db6f4{
+    color: #6db6f4;
+}
+.color-00abef{
+    color: #00abef;
+}
+.color-999{
+    color: #999;
+}
+.color-ff6d00{
+    color: #ff6d00;
+}
+/*字体大小*/
+.fs16{
+    font-size: 16px;/*px*/
+}
+.fs26{
+    font-size: 26px;/*px*/
+}
+.fs30{
+    font-size: 30px;/*px*/
+}
+.fs32{
+    font-size: 32px;/*px*/
+}
+.fs34{
+    font-size: 34px;/*px*/
+}
+.fs36{
+    font-size: 36px;/*px*/
+}
+.fs57{
+    font-size: 57px;/*px*/
+}
+.text-center{
+    text-align: center;
+}
+header.title + .container.mbf {
+    bottom: 98px;
+}

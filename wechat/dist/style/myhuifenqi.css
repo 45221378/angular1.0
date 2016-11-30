@@ -1,0 +1,289 @@
+.myown-detail {
+  height: 2.32rem;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.myown-detail .myown-detail-name {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-left: 0.293333rem;
+}
+
+.myown-detail .myown-detail-name img {
+  vertical-align: middle;
+  padding-right: 0.106667rem;
+  height: 0.386667rem;
+  width: 0.44rem;
+}
+
+.myown-detail .myown-detail-name h1 {
+  color: #333;
+}
+
+[data-dpr="1"] .myown-detail .myown-detail-name h1 {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .myown-detail .myown-detail-name h1 {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .myown-detail .myown-detail-name h1 {
+  font-size: 42px;
+}
+
+.myown-detail .myown-detail-name p {
+  color: #ffcc33;
+}
+
+[data-dpr="1"] .myown-detail .myown-detail-name p {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .myown-detail .myown-detail-name p {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .myown-detail .myown-detail-name p {
+  font-size: 42px;
+}
+
+.myown-detail .check-myown {
+  color: #666;
+  padding-right: 0.266667rem;
+}
+
+[data-dpr="1"] .myown-detail .check-myown {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .myown-detail .check-myown {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .myown-detail .check-myown {
+  font-size: 42px;
+}
+
+.myown-detail .myown-detail-people {
+  height: 1.4rem;
+  width: 1.4rem;
+  border-radius: 50%;
+}
+
+.myown-account {
+  background: #fff;
+  height: 1.253333rem;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 0.4rem;
+  position: relative;
+}
+
+.myown-account a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 1.253333rem;
+}
+
+.myown-account span {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: #333;
+  padding-left: 0.266667rem;
+}
+
+[data-dpr="1"] .myown-account span {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .myown-account span {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .myown-account span {
+  font-size: 42px;
+}
+
+.myown-account .red-spot {
+  background: #ff3300;
+  border-radius: 50%;
+  position: absolute;
+  top: 0.4rem;
+  right: 0.08rem;
+}
+
+[data-dpr="1"] .myown-account .red-spot {
+  height: 6px;
+  width: 6px;
+}
+
+[data-dpr="2"] .myown-account .red-spot {
+  height: 12px;
+  width: 12px;
+}
+
+[data-dpr="3"] .myown-account .red-spot {
+  height: 18px;
+  width: 18px;
+}
+
+.myown-account .myown-addidcard {
+  color: #666;
+  padding-right: 0.266667rem;
+  position: relative;
+}
+
+[data-dpr="1"] .myown-account .myown-addidcard {
+  font-size: 13px;
+}
+
+[data-dpr="2"] .myown-account .myown-addidcard {
+  font-size: 26px;
+}
+
+[data-dpr="3"] .myown-account .myown-addidcard {
+  font-size: 39px;
+}
+
+.myown-account .myown-mark {
+  width: 0.72rem;
+  height: 0.72rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.myown-account .myown-mark i {
+  font-size: 0.373333rem;
+  color: #fff;
+}
+
+.myown {
+  background: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.myown .myown-list {
+  border-bottom: 1px solid #ccc;
+  height: 1.146667rem;
+  line-height: 1.146667rem;
+}
+
+.myown .myown-list .myown-addidcard {
+  font-size: 0.333333rem;
+  color: #666;
+  text-align: right;
+  padding-right: 0.266667rem;
+}
+
+.myown .myown-list >a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.myown .myown-list .myown-mark {
+  width: 0.72rem;
+  height: 0.72rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.myown .myown-list .myown-mark i {
+  font-size: 0.453333rem;
+  color: #fff;
+}
+
+.myown .myown-list >a span {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: #333;
+  padding-left: 0.266667rem;
+}
+
+[data-dpr="1"] .myown .myown-list >a span {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .myown .myown-list >a span {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .myown .myown-list >a span {
+  font-size: 42px;
+}
+
+.icon-fanhuiyou {
+  color: #ccc;
+}
+
+[data-dpr="1"] .icon-fanhuiyou {
+  font-size: 13px;
+}
+
+[data-dpr="2"] .icon-fanhuiyou {
+  font-size: 26px;
+}
+
+[data-dpr="3"] .icon-fanhuiyou {
+  font-size: 39px;
+}

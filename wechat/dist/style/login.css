@@ -1,0 +1,36 @@
+.m-container .m-box {
+  width: 100%;
+  text-align: center;
+  height: 4.4rem;
+}
+
+.m-box {
+  width: 100%;
+  text-align: center;
+  height: 4.026667rem;
+}
+
+.m-logo {
+  margin-top: 0.36rem;
+  width: 2.72rem;
+  height: 2.76rem;
+}
+
+.forget-psd {
+  color: #fdb23d;
+  line-height: 1.173333rem;
+  float: right;
+  margin-right: 0.44rem;
+}
+
+[data-dpr="1"] .forget-psd {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .forget-psd {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .forget-psd {
+  font-size: 42px;
+}

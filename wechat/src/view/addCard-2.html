@@ -1,0 +1,62 @@
+
+    <link rel="stylesheet" href="style/addCard.css">
+
+<header class="title">
+    <a href="javascript:history.back(-1);" class="back">
+        <i class="iconfont icon-icon"></i>
+    </a>
+    <h1>添加银行卡</h1>
+</header>
+<article class="container bgc-fa pdlr30">
+    <span class="inputcard pd0">*请绑定本人名下的储蓄卡</span>
+     <form action="">
+        <ul class="m-form-list clearfix">
+            <li>
+                <label class="form-list-label ">
+                    <span class="form-list-end">
+                        姓&nbsp;名
+                    </span>
+                    <p class="form-list-p">张三</p>
+                </label>              
+            </li>
+            <li>
+                <label class="form-list-label ">
+                    <span class="">
+                        身份证号
+                    </span>
+                    <p class="form-list-p">430384384939492024233</p>
+                </label>
+            </li>
+            <li>
+                <label class="form-list-label ">
+                    <span class="">
+                        银行卡号
+                    </span>
+                    <input type="text" placeholder="请输入银行卡号">
+                </label>
+            </li>
+            <li>
+                <label class="form-list-label">
+                    <span>开户银行 </span> 
+                    <input type="text" readonly="true" />
+                    <i class="iconfont icon-fanhuiyou"></i>                                 
+                </label>
+            </li>
+            <li>
+                <label class="form-list-label ">
+                    <span>手&nbsp;机&nbsp;号</span>  
+                    <input type="tel" placeholder="请输入银行预留手机号"/>    
+                </label>         
+            </li>
+             <li>
+                <label class="form-list-label">
+                    <span >验&nbsp;证&nbsp;码</span> 
+                    <input type="text" placeholder="请输入验证码" class="identify" />
+                    <aside><button  type="button" class="obtain-text" >获取验证码</button></aside><!-- 60秒/获取验证码 -->          
+                </label>             
+            </li>
+        </ul>
+        <span class="mgt60 my-agree">我已同意<a href="" class="color-00abef">《支付服务协议》</a></span>
+        <button class="btn btn-block mgt30 he84" type="submit" >确&nbsp;定</button> 
+    </form>
+</article>

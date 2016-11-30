@@ -1,0 +1,113 @@
+.container .p-input {
+	margin: 20px 0 ;
+	line-height: 42px;
+}
+.container .bill-number {
+	display: flex;
+	flex-direction: column;
+	padding: 18px 0 22px 30px;
+	border-bottom: 1px solid #ccc; /*no*/
+}
+.bill-number > span {
+	flex: 1;
+	font-size: 28px; /*px*/
+	color: #666;
+	line-height: 49px;
+}
+.bill-number .pay-number {
+	font-size: 28px; /*px*/
+	color: #ffb554;
+	padding-left: 20px;
+}
+/**绑定银行卡支付**/
+.bill-btn {
+	width: 88%;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50% , 0); 
+}
+/**直接银行卡支付1**/
+.bill-ff {
+	border-top: 1px solid #ccc; /*no*/ 
+	background: #fff;
+
+}
+.bill-ff > li {
+	border-bottom: 1px solid #ccc; /*no*/ 
+	border-left: 1px solid #ccc;  /*no*/ 
+	border-right: 1px solid #ccc; /*no*/ 
+}
+/**billpayment-3**/
+.bill-ff-li {
+	display: flex;
+    border-bottom: 1px solid #ccc; /*no*/
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    height: 118px;
+    padding: 0 30px;
+}
+.bill-ff-li .iconbox .iconfont{
+	font-size: 58px; /*px*/
+}
+.bill-ff-li .iconbox .icon-icon3 {
+	color: #00c800;	
+}
+.bill-ff-li .iconbox .icon-zhifubao {
+	color: #00a0e9;	
+}
+.bill-ff-li .iconbox .icon-card-bank {
+	color: #d7d7d7;	
+}
+.bill-ff-li .iconbox .icon-zhongguoyinhang{
+	color: #ed0d15;
+}
+.bill-ff-li article {
+    flex: 1;
+    font-size: 24px; /*px*/
+    color: #999;
+    padding-left: 26px;
+}
+.bill-ff-li article h3 {
+    font-size: 26px; /*px*/
+    color: #3a3a3a;
+    margin-bottom: 15px;
+}
+.bill-ff-li > i {
+	font-size: 42px;
+	color: #ececec;
+}
+/**i checked  **/
+.bill-ff-li .ui-ckBox {
+	width: 100px;
+    height: 118px;
+    line-height: 118px;	
+}
+.bill-ff-li .ui-ckBox-iconBox {
+	right: 0;
+}
+.ui-ckBox-icon {
+    display: none;
+    -webkit-animation: 0.4s ease-in forwards;
+    animation: 0.4s ease-in forwards;
+}
+.ui-ckBox-iconBox.is-disable{
+    background-color: #dfdfdf;
+    color: #fff;
+}
+.ui-ckBox-checkbox:checked + .ui-ckBox-iconBox {
+    border: none;
+    background-color: #ff3838; 
+}
+.ui-ckBox-checkbox:checked + .ui-ckBox-iconBox em {
+    display: none;
+}
+.ui-ckBox-checkbox:checked + .ui-ckBox-iconBox .ui-ckBox-icon {
+    display: block;
+  	color: #fff;
+    font-size: 30px; /*px*/
+    padding-left: 5px; /*px*/
+    -webkit-animation-name: bouncein;
+    animation-name: bouncein;
+}
+

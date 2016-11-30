@@ -1,0 +1,672 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+}
+
+header.title {
+  width: 100%;
+  height: 1.186667rem;
+  line-height: 1.173333rem;
+  color: #333;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  border-bottom: 1px solid #dfdfdf;
+  overflow: hidden;
+}
+
+[data-dpr="1"] header.title {
+  font-size: 18px;
+}
+
+[data-dpr="2"] header.title {
+  font-size: 36px;
+}
+
+[data-dpr="3"] header.title {
+  font-size: 54px;
+}
+
+header.title .back {
+  height: 1.173333rem;
+  line-height: 1.173333rem;
+  position: absolute;
+  width: 0.613333rem;
+  left: 0.4rem;
+  top: 0;
+}
+
+header.title .iconfont {
+  color: #666;
+}
+
+[data-dpr="1"] header.title .iconfont {
+  font-size: 23px;
+}
+
+[data-dpr="2"] header.title .iconfont {
+  font-size: 46px;
+}
+
+[data-dpr="3"] header.title .iconfont {
+  font-size: 69px;
+}
+
+header.title + .container {
+  width: 100%;
+  position: absolute;
+  top: 1.173333rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+}
+
+.form-list li {
+  width: 100%;
+  margin-top: 0.4rem;
+}
+
+[data-dpr="1"] .form-list li {
+  font-size: 13px;
+}
+
+[data-dpr="2"] .form-list li {
+  font-size: 26px;
+}
+
+[data-dpr="3"] .form-list li {
+  font-size: 39px;
+}
+
+.form-list li:first-child {
+  margin-top: 0;
+}
+
+.form-list-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.form-list-label input {
+  line-height: 0.56rem;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #fafafa;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  font-family: "微软雅黑";
+  border: none;
+}
+
+[data-dpr="1"] .form-list-label input {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .form-list-label input {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .form-list-label input {
+  font-size: 42px;
+}
+
+.form-list-label input::-webkit-input-placeholder {
+  color: #333;
+}
+
+.form-list-label input:-ms-input-placeholder {
+  color: #333;
+}
+
+.form-list-label input::-moz-input-placeholder {
+  color: #333;
+}
+
+.form-list-label .icon-kejian {
+  color: #514051;
+  padding-right: 0.68rem;
+  text-align: right;
+  border: none;
+}
+
+[data-dpr="1"] .form-list-label .icon-kejian {
+  font-size: 12px;
+}
+
+[data-dpr="2"] .form-list-label .icon-kejian {
+  font-size: 24px;
+}
+
+[data-dpr="3"] .form-list-label .icon-kejian {
+  font-size: 36px;
+}
+
+.form-list-label .icon-bukejian {
+  color: #514051;
+  right: 0.68rem;
+  width: 1.333333rem;
+  text-align: right;
+  line-height: 1.066667rem;
+  border: none;
+  position: absolute;
+}
+
+[data-dpr="1"] .form-list-label .icon-bukejian {
+  font-size: 12px;
+}
+
+[data-dpr="2"] .form-list-label .icon-bukejian {
+  font-size: 24px;
+}
+
+[data-dpr="3"] .form-list-label .icon-bukejian {
+  font-size: 36px;
+}
+
+.btn {
+  border: none;
+  display: block;
+  border-radius: 0.093333rem;
+  line-height: 1.066667rem;
+  height: 1.066667rem;
+  width: 100%;
+  font-family: "微软雅黑";
+}
+
+.btn-block {
+  background: #e83416;
+  color: #fff;
+}
+
+.btn-none {
+  border: 2px solid #e83416;
+  background: #fafafa;
+  color: #e83416;
+}
+
+[data-dpr="1"] .btn-none {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .btn-none {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .btn-none {
+  font-size: 42px;
+}
+
+/**注册，登录成功弹框**/
+
+.big-shade {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 9999;
+}
+
+/**客服弹框**/
+
+.frame-bnum {
+  background: rgba(0, 0, 0, .6);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99000000', endColorstr='#99000000');
+}
+
+:root .frame-bnum {
+  -webkit-filter: none\9;
+  filter: none\9;
+}
+
+.frame-snum {
+  height: 3.2rem;
+  width: 7.2rem;
+  border-radius: 25px;
+  background: #f8f8f8;
+}
+
+.small-shade {
+  height: 2.733333rem;
+  width: 3.013333rem;
+  background: rgba(0, 0, 0, .7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b2000000', endColorstr='#b2000000');
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+:root .small-shade {
+  -webkit-filter: none\9;
+  filter: none\9;
+}
+
+.small-shade span {
+  text-align: center;
+  color: #fff;
+  display: block;
+  margin-top: 0.506667rem;
+}
+
+[data-dpr="1"] .small-shade span {
+  font-size: 13px;
+}
+
+[data-dpr="2"] .small-shade span {
+  font-size: 26px;
+}
+
+[data-dpr="3"] .small-shade span {
+  font-size: 39px;
+}
+
+.small-shade .circle {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  text-align: center;
+  margin-top: 0.466667rem;
+  width: 100%;
+}
+
+.small-shade .iconfont {
+  color: #fff;
+}
+
+[data-dpr="1"] .small-shade .iconfont {
+  font-size: 35px;
+}
+
+[data-dpr="2"] .small-shade .iconfont {
+  font-size: 70px;
+}
+
+[data-dpr="3"] .small-shade .iconfont {
+  font-size: 105px;
+}
+
+/** input获取验证码的样式 */
+
+.form-list-label .captcha-text {
+  width: 2.693333rem;
+  height: 1.053333rem;
+  color: #666;
+  background: #fafafa;
+  font-family: "微软雅黑";
+  border: none;
+  border-left: 1px solid #dfdfdf;
+}
+
+[data-dpr="1"] .form-list-label .captcha-text {
+  font-size: 12px;
+}
+
+[data-dpr="2"] .form-list-label .captcha-text {
+  font-size: 24px;
+}
+
+[data-dpr="3"] .form-list-label .captcha-text {
+  font-size: 36px;
+}
+
+/**验证码在手机端不对齐**/
+
+.form-list-border {
+  border: 1px solid #dfdfdf;
+  height: 1.12rem;
+  padding: 0 0.013333rem 0 0.266667rem;
+}
+
+.form-list-label .form-list-none {
+  border: none;
+}
+
+/**阴影位置**/
+
+.login-shade {
+  position: absolute;
+  left: 50%;
+  top: 43%;
+  -webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  transform: translate(-50%,0);
+}
+
+.reg-shade {
+  position: absolute;
+  left: 50%;
+  top: 27%;
+  -webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  transform: translate(-50%,0);
+}
+
+.bind-shade {
+  position: absolute;
+  left: 50%;
+  top: 38%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.information-shade {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+/**蓝色字体部分**/
+
+.container .prompt {
+  color: #61a7f5;
+  height: 1.653333rem;
+  padding: 0.293333rem 0;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+[data-dpr="1"] .container .prompt {
+  font-size: 12px;
+}
+
+[data-dpr="2"] .container .prompt {
+  font-size: 24px;
+}
+
+[data-dpr="3"] .container .prompt {
+  font-size: 36px;
+}
+
+.container .inputcard {
+  color: #61a7f5;
+  line-height: 0.56rem;
+  padding: 0 0.4rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0.266667rem 0;
+}
+
+[data-dpr="1"] .container .inputcard {
+  font-size: 12px;
+}
+
+[data-dpr="2"] .container .inputcard {
+  font-size: 24px;
+}
+
+[data-dpr="3"] .container .inputcard {
+  font-size: 36px;
+}
+
+.container .pd0 {
+  padding: 0;
+}
+
+/**botton**/
+
+.container .he84 {
+  height: 1.12rem;
+}
+
+[data-dpr="1"] .container .he84 {
+  font-size: 15px;
+}
+
+[data-dpr="2"] .container .he84 {
+  font-size: 30px;
+}
+
+[data-dpr="3"] .container .he84 {
+  font-size: 45px;
+}
+
+.container .he82 {
+  height: 1.093333rem;
+}
+
+[data-dpr="1"] .container .he82 {
+  font-size: 16px;
+}
+
+[data-dpr="2"] .container .he82 {
+  font-size: 32px;
+}
+
+[data-dpr="3"] .container .he82 {
+  font-size: 48px;
+}
+
+.container .he80 {
+  height: 1.066667rem;
+}
+
+[data-dpr="1"] .container .he80 {
+  font-size: 16px;
+}
+
+[data-dpr="2"] .container .he80 {
+  font-size: 32px;
+}
+
+[data-dpr="3"] .container .he80 {
+  font-size: 48px;
+}
+
+/**点击出现勾勾的动画**/
+
+.block-billListCon-billList > li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #dfdfdf;
+  height: 1.306667rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.block-billListCon-billList > li > * {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 1.306667rem;
+  line-height: 1.306667rem;
+}
+
+.block-billListCon-billList > li strong {
+  color: #666;
+}
+
+[data-dpr="1"] .block-billListCon-billList > li strong {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .block-billListCon-billList > li strong {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .block-billListCon-billList > li strong {
+  font-size: 42px;
+}
+
+.block-billListCon-billList > li span {
+  color: #393939;
+}
+
+[data-dpr="1"] .block-billListCon-billList > li span {
+  font-size: 13px;
+}
+
+[data-dpr="2"] .block-billListCon-billList > li span {
+  font-size: 26px;
+}
+
+[data-dpr="3"] .block-billListCon-billList > li span {
+  font-size: 39px;
+}
+
+.block-billListCon-billList > li > :last-child {
+  text-align: right;
+}
+
+.ui-ckBox {
+  position: relative;
+}
+
+.ui-ckBox-iconBox {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 100%;
+  border: 1px solid #dfdfdf;
+  text-align: center;
+}
+
+[data-dpr="1"] .ui-ckBox-iconBox {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+}
+
+[data-dpr="2"] .ui-ckBox-iconBox {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+
+[data-dpr="3"] .ui-ckBox-iconBox {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.ui-ckBox-checkbox {
+  height: 100%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  z-index: 2;
+  width: 6.666667rem;
+  -moz-appearance: button;
+  appearance: button;
+  -webkit-appearance: button;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.ui-ckBox-icon {
+  display: none;
+  -webkit-animation: 0.4s ease-in forwards;
+  animation: 0.4s ease-in forwards;
+}
+
+.ui-ckBox-iconBox.is-disable {
+  background-color: #dfdfdf;
+  color: #fff;
+}
+
+.ui-ckBox-checkbox:checked + .ui-ckBox-iconBox {
+  border: none;
+  background-color: #ff3838;
+}
+
+.ui-ckBox-checkbox:checked + .ui-ckBox-iconBox em {
+  display: none;
+}
+
+.ui-ckBox-checkbox:checked + .ui-ckBox-iconBox .ui-ckBox-icon {
+  display: block;
+  color: #fff;
+  -webkit-animation-name: bouncein;
+  animation-name: bouncein;
+}
+
+[data-dpr="1"] .ui-ckBox-checkbox:checked + .ui-ckBox-iconBox .ui-ckBox-icon {
+  font-size: 15px;
+  padding-left: 2.5px;
+}
+
+[data-dpr="2"] .ui-ckBox-checkbox:checked + .ui-ckBox-iconBox .ui-ckBox-icon {
+  font-size: 30px;
+  padding-left: 5px;
+}
+
+[data-dpr="3"] .ui-ckBox-checkbox:checked + .ui-ckBox-iconBox .ui-ckBox-icon {
+  font-size: 45px;
+  padding-left: 7.5px;
+}
+
+/**footer**/
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 1.306667rem;
+  line-height: 1.306667rem;
+  z-index: 10;
+  border-top: 1px solid #dfdfdf;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+}

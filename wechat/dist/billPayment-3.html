@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>账单还款（直接银行卡支付1）</title>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="format-detection" content="telephone=no,email=no">
+    <!-- build:css style/app.css -->
+    <link rel="stylesheet" href="style/animation.css">
+    <link rel="stylesheet" href="vendor/lib-flexible/flexible.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_fvmtepy1c3wpzaor.css">
+    <link rel="stylesheet" href="style/mobile.css">
+    <link rel="stylesheet" href="style/common.css">
+    <link rel="stylesheet" href="style/billPayment.css">
+    <!-- endbuild -->
+</head>
+<body> 
+<header class="title">
+    <a href="javascript:history.back(-1);" class="back">
+        <i class="iconfont icon-icon"></i>
+    </a>
+    <h1>账单还款</h1>
+</header>
+<section class="container bgc-fa">
+    <header class="bgc-f4 bill-number">
+        <span>支付金额<strong class="pay-number">¥6666.00</strong></span>
+        <span>订单号：2003384743</span>  
+    </header>
+    <ul class="clearfix mgt30 bill-ff">
+        <li class="bill-ff-li">
+            <figure class="iconbox">
+                <i class="iconfont icon-icon3"></i>
+            </figure>
+            <article>
+                <h3>微信支付</h3>
+                <p>推荐安装微信5.0及以上版本的用户使用</p>
+            </article>
+            <header class="ui-ckBox">
+            	<input class="ui-ckBox-checkbox" type="checkbox" />
+	            <span class="ui-ckBox-iconBox">
+	                <i class="ui-ckBox-icon iconfont icon-gougou"></i>
+	            </span>
+            </header>
+        </li>
+        <li class="bill-ff-li">
+            <figure class="iconbox">
+                <i class="iconfont icon-zhifubao "></i>
+            </figure>
+            <article>
+                <h3>支付宝</h3>
+                <p>推荐支付宝用户使用</p>
+            </article>
+            <header class="ui-ckBox">
+            	<input class="ui-ckBox-checkbox" type="checkbox" />
+	            <span class="ui-ckBox-iconBox">
+	                <i class="ui-ckBox-icon iconfont icon-gougou"></i>
+	            </span>
+            </header>
+        </li>
+        <li class="bill-ff-li">
+            <figure class="iconbox">
+                <i class="iconfont icon-card-bank"></i>
+            </figure>
+            <article>  
+                <h3>银行卡支付</h3>
+                <p>银行卡支付，安全便捷，无需开通网银</p>
+            </article>
+            <header class="ui-ckBox">
+            	<input class="ui-ckBox-checkbox" type="checkbox" />
+	            <span class="ui-ckBox-iconBox">
+	                <i class="ui-ckBox-icon iconfont icon-gougou"></i>
+	            </span>
+            </header>
+        </li>
+    </ul>
+    <section class="pdtl45">
+        <button class="btn btn-block mgt60 he84" type="button" >确认支付 ¥100.09</button> 
+    </section>
+ 
+</section>
+<script src="vendor/lib-flexible/flexible.js"></script>
+</body>
+</html>

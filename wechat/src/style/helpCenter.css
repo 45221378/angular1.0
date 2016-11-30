@@ -1,0 +1,131 @@
+/**helpcenter-1的样式**/
+.help-problem {
+	display: flex;
+	justify-content: space-around;
+}
+.help-problem > li {
+	flex: 1;
+	height: 125px;
+	border-bottom: 1px solid #dfdfdf;  /*no*/
+	border-left: 1px solid #dfdfdf;	 	/*no*/
+	border-right: 1px solid #dfdfdf;   /*no*/
+
+}
+.help-problem li:first-child {
+	border-right: none;
+}
+.help-problem a {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.iconbox{
+	height: 52px;
+	width: 52px;
+	border-radius: 50% 50%;
+}
+.bgc-fd {
+	background: #fdc26f;
+}
+.bgc-7c {
+	background: #7cc6f4;
+}
+.iconbox > .iconfont {
+	font-size: 34px; /*px*/
+	color: #fff;
+	line-height: 52px;
+	display: block;
+	text-align: center;
+}
+.iconbox .icon-shop {
+	font-size: 36px; /*px*/	
+}
+.help-problem  span {
+	color: #333;
+	font-size: 28px; /*px*/
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+
+.help-list {
+	border-bottom: 1px solid #dfdfdf; /*no*/	
+}
+.help-list > li {
+	width: 100%;
+	border-top: 1px solid #dfdfdf; /*no*/
+    border-left: 1px solid #dfdfdf; /*no*/
+    border-right: 1px solid #dfdfdf; /*no*/
+}
+
+
+.help-list > li > a {
+    display: flex;
+    align-items: center;
+   	height: 86px;
+   	padding: 0 30px;
+   	color: #333;
+	font-size: 28px; /*px*/
+}
+.help-list > li > a aside {
+    flex: 1;
+    color: #ccc;
+    text-align: right;
+}
+.help-list .icon-fanhuiyou {
+	font-size: 26px; /*px*/	
+}
+
+/**helpcenter-2的样式**/
+.container .help-calculate {
+	border-bottom: 1px solid #dfdfdf; /*no*/		
+}
+.help-calculate h2 {
+	color: #333;
+	font-size: 34px; /*px*/
+	line-height: 89px;
+	border-bottom: 1px solid #dfdfdf; /*no*/
+	padding-left: 15px;	
+}
+.help-calculate .help-algorithm {
+	color: #333;
+	font-size: 28px; /*px*/
+	padding: 20px 0 25px 15px;
+}
+.help-calculate .help-algorithm p {
+	line-height: 50px;
+}
+.help-calculate .help-example {
+	color: #6db6f4;
+	font-size: 28px; /*px*/
+	padding: 20px 0 25px 15px;
+}
+.help-calculate .help-example h4 {
+	line-height: 46px;	
+}
+.help-calculate .help-example p {
+	line-height: 46px;	
+}
+
+/**底部联系客服按钮**/
+.footer {
+	padding: 0 30px;
+	display: flex;
+	justify-content: space-round;
+	align-items: center;
+}
+.footer .footer-request {
+	color: #666;
+    font-size: 28px; /*px*/
+}
+.footer .footer-kefu {
+	color: #3399ff;
+    font-size: 28px; /*px*/
+}
+.footer .footer-kefu .icon-dianhua {
+    font-size: 28px; /*px*/
+    padding-right: 10px;
+}

@@ -1,0 +1,25 @@
+.container .list-bank li {
+	padding-left: 35px;
+	height: 117px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dfdfdf; /*no*/
+    border-left: 1px solid #dfdfdf;   /*no*/
+    border-right: 1px solid #dfdfdf;  /*no*/
+    color: #666;
+}
+.container .list-bank .iconfont {
+	font-size: 60px;  /*px*/
+	margin-right: 25px;
+	color: #b00032;
+}
+.list-bank li article{
+    flex: 1;
+    font-size: 20px;/*px*/
+}
+.list-bank li article h3{
+    font-size: 26px;/*px*/
+    margin-bottom: 15px;
+
+}

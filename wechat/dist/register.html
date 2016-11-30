@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>注册</title>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="format-detection" content="telephone=no,email=no">
+    <!-- build:css style/app.css -->
+    <link rel="stylesheet" href="vendor/lib-flexible/flexible.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_r493knn4wj2u766r.css">
+    <link rel="stylesheet" href="style/mobile.css">
+    <link rel="stylesheet" href="style/common.css">
+    <link rel="stylesheet" href="style/register.css">
+    <!-- endbuild -->
+</head>
+<body>
+<header class="title">
+    <a href="javascript:history.back(-1);" class="back">
+        <i class="iconfont icon-icon"></i>
+    </a>
+    <h1>注册</h1>
+</header>
+<article class="container bgc-fa pd30">
+    <form action="">
+        <ul class="form-list clearfix">
+            <li class="form-list-item">
+                <label class="form-list-label form-list-border">
+                    <input type="tel" placeholder="请输入手机号"/>
+                </label>
+            </li>
+            <li class="form-list-item">
+                <label class="form-list-label form-list-border">
+                    <input type="text" placeholder="请输入验证码" />
+                    <button  type="button" class="captcha-text" >获取验证码</button><!-- 60秒后重新发送 -->
+                </label>
+            </li>
+            <li class="form-list-item ">
+                <label class="form-list-label form-list-border">                 
+                    <input type="password" placeholder="请设置6-20位字母和数字组合的密码" class="identify"/>
+                    <i class="iconfont icon-kejian"></i>
+                    <!-- 点击之后的切换的类名为icon-bukejian -->
+                </label>
+            </li>       
+        </ul>
+        <button class="mgt60 btn btn-block fs32" type="submit" >完&nbsp;成</button>
+    </form>
+</article>
+<section class="big-shade">
+    <div class="small-shade reg-shade">
+        <div class="circle">
+            <i class="iconfont icon-roundcheck"></i>
+        </div>
+        <span>注册成功</span>
+    </div>
+</section>
+<script src="vendor/lib-flexible/flexible.js"></script>
+</body>
+</html>

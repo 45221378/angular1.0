@@ -1,0 +1,195 @@
+header.title .check-contract {
+	color: #666; 
+    font-size: 28px; /*px*/
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+
+.container .block-info{
+	background-color: #7687ff;
+    background: linear-gradient(100deg, #7687ff, #6779ff);
+    padding: 30px;
+    color: #fff;
+    width: 100%;
+}
+.block-stag-info {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 24px; /*px*/
+}
+.block-info-goodsName {
+    font-size: 32px; /*px*/
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+/**原字体28px,但是苹果5装不下**/
+.block-info-time {
+    font-size: 26px; /*px*/	
+}
+.block-info-time strong {
+    padding-left: 20px;
+}
+
+.block-info-list {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.block-info-item {
+    font-size: 26px; /*px*/		
+    flex: 1;
+    text-align: left;
+}
+.block-info-item:first-child {
+    text-align: left;
+}
+
+.block-billListCon-billList strong {
+    color: #666;
+    font-size: 28px; /*px*/
+}
+.block-billListCon-billList span {
+    color: #393939;
+    font-size: 26px; /*px*/
+}
+
+.block-billListCon-billList .warning .icon-wenhaoweiwanchengyanzheng{
+	font-size: 36px; /*px*/
+	color: #bababa;
+}
+
+/*用px苹果5下字体太大*/
+.footer .checkall {
+	font-size: 24px; 
+	color: #333;
+	padding-left: 54px;
+}
+.footer .checkall span {
+	font-size: 24px; 
+	color: #e83416;
+}
+.footer header {
+    flex: 1;
+    height: 98px;
+    line-height: 98px;    
+    padding-left:30px;
+}
+.footer article {
+    font-size: 24px; 
+    color: #666;
+    flex: 1;
+    text-align: center;
+} 
+.footer article span{
+    font-size: 24px; 
+    color: #e83416;
+}
+/**付款按钮**/
+.bill-pay {
+	border: none;
+	height: 100%;
+	width: 210px;
+	line-height: 98px;
+	background: #e83416;
+    color: #fff;
+    font-size: 32px; 
+    font-family: "微软雅黑";
+}
+
+/**请选择还款期数弹框**/
+.bill-small-shade {	 
+    border-radius: 10px;
+    text-align: center;
+}
+.bill-number {
+	display: none; 
+	background: rgba(0, 0, 0, .7);
+	height: 62px;
+	width: 67.5%;
+	line-height: 62px;
+	color: #fff;
+    font-size: 30px; /*px*/  
+    position: absolute;
+    left: 50%;
+    bottom: 140px;
+    transform: translate(-50%,-50%);
+}
+/**已还界面弹框**/
+.already-pay {
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 79.68%;
+}
+.already-pay .bill-fff {
+	background: #fff;
+
+}
+.already-pay .bill-fff header {
+	background: url(../img/shade-img.png);
+	background-size: 100%, 100%; 
+	overflow: hidden;
+	height: 232px;
+	padding: 0 40px;
+
+}
+.already-pay .bill-fff h3 {
+	color: #016dcf;
+    font-size: 30px; /*px*/  
+    line-height: 140px;
+}
+.already-pay .bill-fff .bill-fff-totle {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+.already-pay .bill-fff .bill-fff-totle > li{
+	color: #016dcf;
+    font-size: 26px; /*px*/ 
+}
+.already-pay .bill-fff .bill-fff-type {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0;
+}
+.already-pay .bill-fff .bill-fff-type > li {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 30px;
+	color: #666;
+    font-size: 24px; /*px*/ 
+    line-height: 62px;	
+}
+.already-pay .bill-fff .bill-fff-type > li:nth-of-type(odd) {
+	border-bottom: 1px solid #dfdfdf; /*no*/
+}
+.already-pay .bill-fff .bill-fff-type > li:last-of-type {
+	border: none;
+}
+
+
+.bill-know {
+	width: 244px;
+	height: 80px;
+	border-radius: 40px;
+	border: 1px solid #fff; /*no*/
+	color: #fff;
+    font-size: 32px; /*px*/  
+    line-height: 80px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0);
+    margin-top: 76px;
+}
+
+
+
+
+

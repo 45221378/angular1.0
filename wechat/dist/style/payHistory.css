@@ -1,0 +1,120 @@
+.container .pay-list {
+  background: #fff;
+}
+
+.container .pay-list > li {
+  padding: 0.426667rem 0.4rem 0.266667rem 0.4rem;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.container .pay-title {
+  line-height: 0.773333rem;
+}
+
+.pay-title span {
+  color: #666;
+}
+
+[data-dpr="1"] .pay-title span {
+  font-size: 12px;
+}
+
+[data-dpr="2"] .pay-title span {
+  font-size: 24px;
+}
+
+[data-dpr="3"] .pay-title span {
+  font-size: 36px;
+}
+
+.pay-title h2 {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  color: #333;
+}
+
+[data-dpr="1"] .pay-title h2 {
+  font-size: 15px;
+}
+
+[data-dpr="2"] .pay-title h2 {
+  font-size: 30px;
+}
+
+[data-dpr="3"] .pay-title h2 {
+  font-size: 45px;
+}
+
+.pay-title strong {
+  text-align: right;
+  float: right;
+}
+
+[data-dpr="1"] .pay-title strong {
+  font-size: 16px;
+}
+
+[data-dpr="2"] .pay-title strong {
+  font-size: 32px;
+}
+
+[data-dpr="3"] .pay-title strong {
+  font-size: 48px;
+}
+
+.container .pay-time {
+  line-height: 0.666667rem;
+}
+
+.pay-time span {
+  color: #666;
+}
+
+[data-dpr="1"] .pay-time span {
+  font-size: 12px;
+}
+
+[data-dpr="2"] .pay-time span {
+  font-size: 24px;
+}
+
+[data-dpr="3"] .pay-time span {
+  font-size: 36px;
+}
+
+.pay-time strong {
+  float: right;
+}
+
+[data-dpr="1"] .pay-time strong {
+  font-size: 13px;
+}
+
+[data-dpr="2"] .pay-time strong {
+  font-size: 26px;
+}
+
+[data-dpr="3"] .pay-time strong {
+  font-size: 39px;
+}
+
+.container .pay-number {
+  line-height: 0.773333rem;
+}
+
+.pay-number span {
+  color: #666;
+}
+
+[data-dpr="1"] .pay-number span {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .pay-number span {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .pay-number span {
+  font-size: 42px;
+}

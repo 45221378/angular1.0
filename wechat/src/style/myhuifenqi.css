@@ -1,0 +1,131 @@
+.myown-detail {
+	height: 174px;
+	background: #fff;	
+	border-bottom: 1px solid #ccc; /*no*/ 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.myown-detail .myown-detail-name {
+	flex: 1;
+	padding-left: 22px;
+}
+.myown-detail .myown-detail-name img {
+	vertical-align: middle;
+	padding-right: 8px;
+	height: 29px;
+	width: 33px;	
+}
+.myown-detail .myown-detail-name h1 {
+	font-size: 28px; /*px*/
+	color: #333;
+	
+}
+.myown-detail .myown-detail-name p {
+	font-size: 28px; /*px*/
+	color: #ffcc33;
+	
+}
+.myown-detail .check-myown {
+	font-size: 28px; /*px*/
+	color: #666;
+	padding-right: 20px;	
+}
+.myown-detail .myown-detail-people {
+	height: 105px;
+	width: 105px;
+	border-radius: 50%;
+}
+.myown-account {
+	background: #fff;
+	height: 94px;
+	border-bottom: 1px solid #ccc; /*no*/	
+	margin-bottom: 30px;
+	position: relative;
+}
+.myown-account a {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	line-height: 94px;
+}
+.myown-account span {
+	flex: 1;
+	font-size: 28px; /*px*/
+    color: #333;
+    padding-left: 20px;
+}
+.myown-account .red-spot {
+	background: #ff3300;
+	height: 12px;   /*px*/
+	width: 12px;    /*px*/
+	border-radius: 50%;
+	position: absolute;
+	top: 30px;
+	right: 6px;
+}
+.myown-account .myown-addidcard {
+	font-size: 26px; /*px*/
+    color: #666;	
+    padding-right: 20px;
+    position: relative;
+}
+.myown-account .myown-mark {
+	width: 54px;
+	height: 54px;
+	display: flex;
+	align-items: center;	
+	justify-content: center;
+	border-radius: 50%;
+}
+.myown-account .myown-mark i {
+	font-size: 28px;
+	color: #fff;
+}
+
+
+
+.myown {
+	background: #fff;
+	border-top: 1px solid #ccc; /*no*/
+}
+.myown .myown-list {
+	border-bottom: 1px solid #ccc; /*no*/ 	
+	height: 86px;
+	line-height: 86px;
+}
+.myown .myown-list .myown-addidcard {
+	font-size: 25px;
+	color: #666;	
+	text-align: right;
+	padding-right: 20px;
+}
+
+.myown .myown-list >a {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.myown .myown-list .myown-mark {
+	width: 54px;
+	height: 54px;
+	display: flex;
+	align-items: center;	
+	justify-content: center;
+	border-radius: 50%;
+}
+.myown .myown-list .myown-mark i {
+	font-size: 34px;
+	color: #fff;
+}
+.myown .myown-list >a span {
+	flex: 1;
+	font-size: 28px; /*px*/
+    color: #333;
+    padding-left: 20px;
+}
+.icon-fanhuiyou {
+	font-size: 26px; /*px*/
+    color: #ccc;
+}

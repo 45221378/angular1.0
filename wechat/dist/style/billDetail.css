@@ -1,0 +1,420 @@
+header.title .check-contract {
+  color: #666;
+  position: absolute;
+  top: 0;
+  right: 0.4rem;
+}
+
+[data-dpr="1"] header.title .check-contract {
+  font-size: 14px;
+}
+
+[data-dpr="2"] header.title .check-contract {
+  font-size: 28px;
+}
+
+[data-dpr="3"] header.title .check-contract {
+  font-size: 42px;
+}
+
+.container .block-info {
+  background-color: #7687ff;
+  background: -webkit-linear-gradient(350deg, #7687ff, #6779ff);
+  background: linear-gradient(100deg, #7687ff, #6779ff);
+  padding: 0.4rem;
+  color: #fff;
+  width: 100%;
+}
+
+.block-stag-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  text-align: center;
+}
+
+[data-dpr="1"] .block-stag-info {
+  font-size: 12px;
+}
+
+[data-dpr="2"] .block-stag-info {
+  font-size: 24px;
+}
+
+[data-dpr="3"] .block-stag-info {
+  font-size: 36px;
+}
+
+.block-info-goodsName {
+  margin-top: 0.4rem;
+  margin-bottom: 0.266667rem;
+  letter-spacing: 0.026667rem;
+}
+
+[data-dpr="1"] .block-info-goodsName {
+  font-size: 16px;
+}
+
+[data-dpr="2"] .block-info-goodsName {
+  font-size: 32px;
+}
+
+[data-dpr="3"] .block-info-goodsName {
+  font-size: 48px;
+}
+
+/**原字体28px,但是苹果5装不下**/
+
+[data-dpr="1"] .block-info-time {
+  font-size: 13px;
+}
+
+[data-dpr="2"] .block-info-time {
+  font-size: 26px;
+}
+
+[data-dpr="3"] .block-info-time {
+  font-size: 39px;
+}
+
+.block-info-time strong {
+  padding-left: 0.266667rem;
+}
+
+.block-info-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0.8rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+}
+
+.block-info-item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: left;
+}
+
+[data-dpr="1"] .block-info-item {
+  font-size: 13px;
+}
+
+[data-dpr="2"] .block-info-item {
+  font-size: 26px;
+}
+
+[data-dpr="3"] .block-info-item {
+  font-size: 39px;
+}
+
+.block-info-item:first-child {
+  text-align: left;
+}
+
+.block-billListCon-billList strong {
+  color: #666;
+}
+
+[data-dpr="1"] .block-billListCon-billList strong {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .block-billListCon-billList strong {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .block-billListCon-billList strong {
+  font-size: 42px;
+}
+
+.block-billListCon-billList span {
+  color: #393939;
+}
+
+[data-dpr="1"] .block-billListCon-billList span {
+  font-size: 13px;
+}
+
+[data-dpr="2"] .block-billListCon-billList span {
+  font-size: 26px;
+}
+
+[data-dpr="3"] .block-billListCon-billList span {
+  font-size: 39px;
+}
+
+.block-billListCon-billList .warning .icon-wenhaoweiwanchengyanzheng {
+  color: #bababa;
+}
+
+[data-dpr="1"] .block-billListCon-billList .warning .icon-wenhaoweiwanchengyanzheng {
+  font-size: 18px;
+}
+
+[data-dpr="2"] .block-billListCon-billList .warning .icon-wenhaoweiwanchengyanzheng {
+  font-size: 36px;
+}
+
+[data-dpr="3"] .block-billListCon-billList .warning .icon-wenhaoweiwanchengyanzheng {
+  font-size: 54px;
+}
+
+/*用px苹果5下字体太大*/
+
+.footer .checkall {
+  font-size: 0.32rem;
+  color: #333;
+  padding-left: 0.72rem;
+}
+
+.footer .checkall span {
+  font-size: 0.32rem;
+  color: #e83416;
+}
+
+.footer header {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 1.306667rem;
+  line-height: 1.306667rem;
+  padding-left: 0.4rem;
+}
+
+.footer article {
+  font-size: 0.32rem;
+  color: #666;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.footer article span {
+  font-size: 0.32rem;
+  color: #e83416;
+}
+
+/**付款按钮**/
+
+.bill-pay {
+  border: none;
+  height: 100%;
+  width: 2.8rem;
+  line-height: 1.306667rem;
+  background: #e83416;
+  color: #fff;
+  font-size: 0.426667rem;
+  font-family: "微软雅黑";
+}
+
+/**请选择还款期数弹框**/
+
+.bill-small-shade {
+  border-radius: 0.133333rem;
+  text-align: center;
+}
+
+.bill-number {
+  display: none;
+  background: rgba(0, 0, 0, .7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b2000000', endColorstr='#b2000000');
+  height: 0.826667rem;
+  width: 67.5%;
+  line-height: 0.826667rem;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  bottom: 1.866667rem;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+[data-dpr="1"] .bill-number {
+  font-size: 15px;
+}
+
+[data-dpr="2"] .bill-number {
+  font-size: 30px;
+}
+
+[data-dpr="3"] .bill-number {
+  font-size: 45px;
+}
+
+:root .bill-number {
+  -webkit-filter: none\9;
+  filter: none\9;
+}
+
+/**已还界面弹框**/
+
+.already-pay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 79.68%;
+}
+
+.already-pay .bill-fff {
+  background: #fff;
+}
+
+.already-pay .bill-fff header {
+  background: url(../img/shade-img.png);
+  background-size: 100%, 100%;
+  overflow: hidden;
+  height: 3.093333rem;
+  padding: 0 0.533333rem;
+}
+
+.already-pay .bill-fff h3 {
+  color: #016dcf;
+  line-height: 1.866667rem;
+}
+
+[data-dpr="1"] .already-pay .bill-fff h3 {
+  font-size: 15px;
+}
+
+[data-dpr="2"] .already-pay .bill-fff h3 {
+  font-size: 30px;
+}
+
+[data-dpr="3"] .already-pay .bill-fff h3 {
+  font-size: 45px;
+}
+
+.already-pay .bill-fff .bill-fff-totle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.already-pay .bill-fff .bill-fff-totle > li {
+  color: #016dcf;
+}
+
+[data-dpr="1"] .already-pay .bill-fff .bill-fff-totle > li {
+  font-size: 13px;
+}
+
+[data-dpr="2"] .already-pay .bill-fff .bill-fff-totle > li {
+  font-size: 26px;
+}
+
+[data-dpr="3"] .already-pay .bill-fff .bill-fff-totle > li {
+  font-size: 39px;
+}
+
+.already-pay .bill-fff .bill-fff-type {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0.266667rem 0;
+}
+
+.already-pay .bill-fff .bill-fff-type > li {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 0.4rem;
+  color: #666;
+  line-height: 0.826667rem;
+}
+
+[data-dpr="1"] .already-pay .bill-fff .bill-fff-type > li {
+  font-size: 12px;
+}
+
+[data-dpr="2"] .already-pay .bill-fff .bill-fff-type > li {
+  font-size: 24px;
+}
+
+[data-dpr="3"] .already-pay .bill-fff .bill-fff-type > li {
+  font-size: 36px;
+}
+
+.already-pay .bill-fff .bill-fff-type > li:nth-of-type(odd) {
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.already-pay .bill-fff .bill-fff-type > li:last-of-type {
+  border: none;
+}
+
+.bill-know {
+  width: 3.253333rem;
+  height: 1.066667rem;
+  border-radius: 0.533333rem;
+  border: 1px solid #fff;
+  color: #fff;
+  line-height: 1.066667rem;
+  text-align: center;
+  background: rgba(0, 0, 0, 0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#00000000');
+  margin-top: 1.013333rem;
+}
+
+[data-dpr="1"] .bill-know {
+  font-size: 16px;
+}
+
+[data-dpr="2"] .bill-know {
+  font-size: 32px;
+}
+
+[data-dpr="3"] .bill-know {
+  font-size: 48px;
+}
+
+:root .bill-know {
+  -webkit-filter: none\9;
+  filter: none\9;
+}

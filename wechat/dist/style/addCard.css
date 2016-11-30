@@ -1,0 +1,337 @@
+/**addcard-1**/
+
+.container .card-img {
+  margin-top: 1.333333rem;
+  width: 100%;
+  height: 3.813333rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.container .card-img .m-card {
+  display: block;
+  width: 5.866667rem;
+  height: 4.08rem;
+}
+
+.container .pd0 {
+  padding: 0;
+}
+
+.container .card-say {
+  color: #323232;
+  text-align: center;
+}
+
+[data-dpr="1"] .container .card-say {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .container .card-say {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .container .card-say {
+  font-size: 42px;
+}
+
+.container .mgt220 {
+  margin-top: 2.933333rem;
+}
+
+.container .mgt180 {
+  margin-top: 2.4rem;
+}
+
+/**addcard-2**/
+
+.container .m-form-list {
+  border: 1px solid #ccc;
+  background: #fff;
+  padding-left: 0.266667rem;
+  border-radius: 4px;
+}
+
+.m-form-list span {
+  width: 1.893333rem;
+  color: #3f3f3f;
+  text-align: right;
+  height: 100%;
+}
+
+[data-dpr="1"] .m-form-list span {
+  font-size: 15px;
+}
+
+[data-dpr="2"] .m-form-list span {
+  font-size: 30px;
+}
+
+[data-dpr="3"] .m-form-list span {
+  font-size: 45px;
+}
+
+.m-form-list li {
+  border-bottom: 1px solid #e6e6e6;
+  height: 1.293333rem;
+  line-height: 1.293333rem;
+}
+
+.m-form-list li:last-child {
+  border: none;
+}
+
+.m-form-list  input {
+  border: none;
+  background: #fff;
+}
+
+.m-form-list .form-list-p {
+  width: 6.133333rem;
+  height: 1.253333rem;
+  float: right;
+  padding-left: 0.76rem;
+}
+
+[data-dpr="1"] .m-form-list .form-list-p {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .m-form-list .form-list-p {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .m-form-list .form-list-p {
+  font-size: 42px;
+}
+
+.m-form-list input {
+  color: #333;
+  padding: 0.266667rem 0 0.266667rem 0.76rem;
+  font-family: "微软雅黑";
+  height: 100%;
+  line-height: 0.6rem;
+}
+
+[data-dpr="1"] .m-form-list input {
+  font-size: 12px;
+}
+
+[data-dpr="2"] .m-form-list input {
+  font-size: 24px;
+}
+
+[data-dpr="3"] .m-form-list input {
+  font-size: 36px;
+}
+
+.m-form-list .form-list-end {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.m-form-list .form-list-letter {
+  letter-spacing: 0.04rem;
+}
+
+.form-list-item .identify {
+  width: 3.866667rem;
+}
+
+.m-form-list .obtain-text {
+  padding-right: 0.4rem;
+  color: #6db6f4;
+  font-size: 0.346667rem;
+  border: none;
+  background: #fff;
+  display: block;
+  height: 1.28rem;
+  font-family: "微软雅黑";
+}
+
+.my-agree {
+  display: block;
+}
+
+[data-dpr="1"] .my-agree {
+  font-size: 12px;
+}
+
+[data-dpr="2"] .my-agree {
+  font-size: 24px;
+}
+
+[data-dpr="3"] .my-agree {
+  font-size: 36px;
+}
+
+.icon-fanhuiyou {
+  float: right;
+  color: #dfdfdf;
+  padding-right: 0.4rem;
+}
+
+[data-dpr="1"] .icon-fanhuiyou {
+  font-size: 15px;
+}
+
+[data-dpr="2"] .icon-fanhuiyou {
+  font-size: 30px;
+}
+
+[data-dpr="3"] .icon-fanhuiyou {
+  font-size: 45px;
+}
+
+.m-form-list input::-webkit-input-placeholder {
+  color: #666;
+}
+
+/**addcard-3**/
+
+.container .addcard-bank {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  text-align: left;
+  background: #e65578;
+}
+
+[data-dpr="1"] .container .addcard-bank {
+  border-radius: 5px;
+}
+
+[data-dpr="2"] .container .addcard-bank {
+  border-radius: 10px;
+}
+
+[data-dpr="3"] .container .addcard-bank {
+  border-radius: 15px;
+}
+
+.addcard-bank .icon-bank {
+  height: 1.2rem;
+  width: 1.2rem;
+  color: #dde6f2;
+  margin-top: 0.4rem;
+}
+
+.icon-bank .icon-zhongguoyinhang {
+  font-size: 1.2rem;
+}
+
+[data-dpr="1"] .addcard-bank .icon-bank .icon-font {
+  font-size: 45px;
+}
+
+[data-dpr="2"] .addcard-bank .icon-bank .icon-font {
+  font-size: 90px;
+}
+
+[data-dpr="3"] .addcard-bank .icon-bank .icon-font {
+  font-size: 135px;
+}
+
+.addcard-bank .icon-guanbi {
+  font-size: 0.426667rem;
+  height: 0.426667rem;
+  width: 0.426667rem;
+  color: #d9476f;
+  margin-top: 0.32rem;
+}
+
+.addcard-information h4 {
+  color: #fff;
+  margin-top: 0.533333rem;
+}
+
+[data-dpr="1"] .addcard-information h4 {
+  font-size: 16px;
+}
+
+[data-dpr="2"] .addcard-information h4 {
+  font-size: 32px;
+}
+
+[data-dpr="3"] .addcard-information h4 {
+  font-size: 48px;
+}
+
+.addcard-information p {
+  color: #fff;
+}
+
+[data-dpr="1"] .addcard-information p {
+  font-size: 12px;
+}
+
+[data-dpr="2"] .addcard-information p {
+  font-size: 24px;
+}
+
+[data-dpr="3"] .addcard-information p {
+  font-size: 36px;
+}
+
+.addcard-information .addcard-name {
+  margin-bottom: 0.533333rem;
+}
+
+.addcard-information .addcard-number {
+  margin-bottom: 0.613333rem;
+}
+
+/**bindidcard-1**/
+
+.container .card-see {
+  color: #333;
+  text-align: center;
+  margin-top: 0.933333rem;
+}
+
+[data-dpr="1"] .container .card-see {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .container .card-see {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .container .card-see {
+  font-size: 42px;
+}
+
+.container .idcard-img {
+  width: 100%;
+  height: 4.266667rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.container .idcard-img .m-idcard {
+  display: block;
+  width: 4.266667rem;
+  height: 1.373333rem;
+}
